@@ -1,0 +1,50 @@
+        /* Stop Watch Css */
+    
+        .div{
+            background-color: grey;
+            border-radius: 90px;
+            padding: 20px;
+            text-align: center;
+         
+        }
+        
+        .div1{
+            border: 3px dashed #FFC107;
+            border-radius: 90px;
+            padding: 20px;
+        }    
+        
+        .div2{
+            border: 3px dashed green;
+            border-radius:20px;
+            padding: 20px;
+        }    
+        
+        .div{
+            border: 3px dashed red; 
+        }
+        
+            h1{
+               
+                border-radius: 100px;
+                color: black;
+                background-color: white;
+             
+            }
+        
+            h2{
+        
+                border-radius: 20px;
+                color: black;
+                background-color: white;
+                border: 3px dotted blue ;
+            
+            }
+                body{
+                    background-color: BLACK;
+                    border-radius: 150px;            
+                    margin-top: 17px;              
+                    color: white;
+                    text-align: center;
+                    margin-left: 9px;
+                }

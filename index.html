@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Stop Watch Application -->
+
+<div class='div'>
+    <div class='div1'>
+    <h1 >Stop Watch</h1>
+    </div>
+    <br>
+    <div class='div1'>
+    <h1 >Timer</h1>
+    </div>
+    <br>
+    <div   class='div1'>
+    <h2>Minute</h2>
+    <h2>Second</h2>
+    <h2>Millisecond</h2>
+    </div>
+    
+    <br>
+    <div class='div'>
+    <h2 id='min'>00</h2>
+    <h2 id='sec'>00</h2>
+    <h2 id='msec'>00</h2>
+    </div>
+    <br>
+    
+    <div class='div'>
+    <button class='div1' id='activeID' style="font-size: 17px; font-family: 'Times New Roman', Times, serif; color: #17A2B8; background-color: white ; border-radius: 7px;  padding: 6.375px 12.75px" onmouseover="this.style.backgroundColor = '#17A2B8',this.style.color='white',this.style.fontSize='17px' , this.style.borderRadius='6px'" onmouseout="this.style.color = '#17A2B8',this.style.backgroundColor='white',this.style.borderRadius='7px'" onclick="active()">Active</button>
+    <button class='div1' style="font-size: 17px; font-family: 'Times New Roman', Times, serif; color: #FFC107; background-color: white ; border-radius: 7px;  padding: 6.375px 12.75px" onmouseover="this.style.backgroundColor = '#FFC107',this.style.color='white',this.style.fontSize='17px', this.style.borderRadius='6px'" onmouseout="this.style.color = '#FFC107',this.style.backgroundColor='white',this.style.borderRadius='7px'" onclick="pause()"  >Pause</button>
+    <button class='div1' style="font-size: 17px; font-family: 'Times New Roman', Times, serif; color: red; background-color: white ; border-radius: 7px;  padding: 6.375px 12.75px" onmouseover="this.style.backgroundColor = 'red',this.style.color='white',this.style.fontSize='17px', this.style.borderRadius='6px'" onmouseout="this.style.color = 'red',this.style.backgroundColor='WHITE',this.style.borderRadius='7px' " onclick="reset()" >Reset</button>
+    <button class='div1' style="font-size: 17px; font-family: 'Times New Roman', Times, serif; color: green; background-color: white ; border-radius: 7px; padding: 6.375px 12.75px" onmouseover="this.style.backgroundColor = 'green',this.style.color='white',this.style.fontSize='17px', this.style.borderRadius='6px'" onmouseout="this.style.color = 'green',this.style.backgroundColor='WHITE',this.style.borderRadius='7px' " onclick="lab()" >Lab</button>
+    </div>
+    
+    <h1 class='div1'>History</h1>
+    
+    <ul class='div2' style=' background-color: GREY;  border-radius: 30px; list-style-type:decimal; text-decoration: underline; word-spacing: 20px; font-weight: bold;z-index: Stop Watch;cursor: pointer;box-shadow: 1px 2px 10px 10px green;'   id='ul'>
+    
+    </ul>
+</body>
+<script src="app.js"></script>
+</html>
